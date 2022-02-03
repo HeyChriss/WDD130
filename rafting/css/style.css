@@ -9,20 +9,56 @@ body {
 }
 
 header, footer {
-    background-color: rgb(60, 121, 233);
+    background-color: rgb(144, 177, 240);
     display: grid;
     align-items: center;
     justify-content: center;
+    padding: 50px;
 }
 
 a {
-    color:grey ;
+    color:rgb(0, 0, 0) ;
 }
 
 /* Class Selectors */
 .page {
     max-width: 960px;
     margin: 1rem auto;
+    font-family: 'Barlow', sans-serif, 'Luxurious Roman', Georgia, serif;;
+    font-size: 1.2em;
+    line-height: 150%;
+}
+.menu {
+    font-size: 1.5em;
+}
+.who {
+    align-items: left;
+    margin: 1rem auto;
+}
+.Hero img {
+    box-shadow: 10px 5px 5px rgb(3, 21, 190);
+    margin: auto 150px;
+    align-items: center;
+    justify-content: center;
+}
+.rafting img {
+    box-shadow: 10px 5px 5px rgb(3, 21, 190);
+    justify-content: right; 
+    align-items: right;
+}
+.information{
+    margin: auto 1rem;
 
 }
-
+.Services img {
+    box-shadow: 10px 5px 5px rgb(3, 21, 190);
+    margin: auto 300px;
+}
+.BannerServices img {
+    box-shadow: 10px 5px 5px rgb(3, 21, 190);
+}
+.Social {
+    align-items: center;
+    justify-content: center;
+    margin: 1rem auto; 
+} 
