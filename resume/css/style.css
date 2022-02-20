@@ -1,0 +1,10 @@
+.page {
+    max-width: 960px;
+    margin: 0 auto;
+    font-family: 'Luxurious Roman', 'Monaco', 'monospace';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+
+
