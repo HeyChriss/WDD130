@@ -7,4 +7,55 @@
     font-display: swap;
 }
 
+header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+}
 
+.logo {
+    margin-left: 20px;
+}
+
+.nav li{
+    flex: 1 1 100%;
+}
+
+.nav a{
+    display: block;
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 16px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+
+
+
+
+
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: end;
+    padding: 10px;
+}
+
+.icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.icons img {
+    padding: 20px;
+}
+
+.copy {
+    justify-self: left;
+}
