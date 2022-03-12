@@ -142,7 +142,7 @@ ul {
 }
 
 footer {
-    background-color: #4c5458;
+    background-color: #84b6cf;
     color: #000000;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -193,6 +193,19 @@ footer {
     grid-column: 2/2;
 }
 
+.book {
+    position: absolute;
+    top: 45%;
+    right: 5%;
+    background: #f7f7f7;
+    font-size: 20px;
+    font-family: 'Monaco', monospace, cursive;
+    color: #008fe2;
+    box-sizing: content-box;
+    padding: 20px;
+    opacity: .8;
+    color: #000716;
+}
 
 /* about.html */
 
