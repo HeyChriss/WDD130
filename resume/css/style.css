@@ -300,6 +300,7 @@ button {
 .card1 {
     width: 480px;
     grid-column: 1/2;
+    margin-top: 80px;
     
 }
 
